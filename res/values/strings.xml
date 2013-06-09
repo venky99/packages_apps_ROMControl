@@ -47,8 +47,11 @@
     <string name="title_performance">Performance Settings</string>
     <string name="title_installer">Installer Settings</string>
     <string name="title_clipboard_share">Share to Clipboard</string>
+<<<<<<< HEAD
     <string name="mgerrit_activity_name">mGerrit</string>
     <string name="ribbon_settings_title">Ribbons</string>
+=======
+>>>>>>> parent of c55849b... Change gerrit Preference onClick from Browser link to apk
 
     <!-- Header Summaries -->
     <string name="header_summary_clock">@null</string>

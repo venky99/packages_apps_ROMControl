@@ -240,6 +240,7 @@
         <service
             android:name=".service.ExternalCommandService"
             android:exported="false"/>
+<<<<<<< HEAD
 
         <!-- mGerrit, embedded Gerrit instance viewer -->
         <activity
@@ -258,6 +259,8 @@
             android:theme="@android:style/Theme.Holo.Light"/>
         <activity android:name="com.jbirdvegas.mgerrit.AOKPChangelog"
             android:theme="@android:style/Theme.Holo.Light"/>
+=======
+>>>>>>> parent of c55849b... Change gerrit Preference onClick from Browser link to apk
     </application>
 
 </manifest>
