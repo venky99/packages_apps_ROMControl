@@ -240,27 +240,6 @@
         <service
             android:name=".service.ExternalCommandService"
             android:exported="false"/>
-<<<<<<< HEAD
-
-        <!-- mGerrit, embedded Gerrit instance viewer -->
-        <activity
-            android:name="com.jbirdvegas.mgerrit.GerritControllerActivity"
-            android:theme="@android:style/Theme.Holo.Light"
-            android:label="@string/mgerrit_activity_name"/>
-        <activity android:name="com.jbirdvegas.mgerrit.ReviewTab"
-            android:theme="@android:style/Theme.Holo.Light"/>
-        <activity android:name="com.jbirdvegas.mgerrit.MergedTab"
-            android:theme="@android:style/Theme.Holo.Light"/>
-        <activity android:name="com.jbirdvegas.mgerrit.AbandonedTab"
-            android:theme="@android:style/Theme.Holo.Light"/>
-        <activity android:name="com.jbirdvegas.mgerrit.PatchSetViewerActivity"
-            android:theme="@android:style/Theme.Holo.Light"/>
-        <activity android:name="com.jbirdvegas.mgerrit.Prefs"
-            android:theme="@android:style/Theme.Holo.Light"/>
-        <activity android:name="com.jbirdvegas.mgerrit.AOKPChangelog"
-            android:theme="@android:style/Theme.Holo.Light"/>
-=======
->>>>>>> parent of c55849b... Change gerrit Preference onClick from Browser link to apk
     </application>
 
 </manifest>
