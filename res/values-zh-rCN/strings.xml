@@ -77,7 +77,6 @@
     <string name="menu_ribbon_toggles">设置开关</string>
     <string name="menu_ribbon_na">不可用</string>
     <string name="menu_ribbon_toggles_error">开关只在使用左右滑动操作区时有效。</string>
-    <string name="menu_user_interface_reset">重置背景壁纸</string>
     <string name="menu_lockscreens_reset">重置锁屏壁纸</string>
 
     <!-- General Strings 常用文本 -->
@@ -161,8 +160,11 @@
     <string name="custom_bootanimation_title">自定义开机动画</string>
     <string name="custom_bootanimation_summary">从SD卡选择开机动画的ZIP文件，原开机动画将备份在/system/media目录</string>
     <string name="install_file_manager_error">未找到可选择 ZIP 文件的应用程序，请至少安装一款文件管理程序。</string>
-    <string name="notification_wallpaper_title">选择通知栏背景</string>
-    <string name="notification_wallpaper_summary">在本页面按菜单键可选择重置背景壁纸</string>
+    <string name="notification_wallpaper_title">通知栏背景</string>
+    <string name="notification_wallpaper_dialog">背景预览</string>
+    <string name="notification_wallpaper_pick">新建通知栏背景</string>
+    <string name="notification_wallpaper_reset">移除通知栏背景</string>
+    <string name="notification_wallpaper_error">找不到图像</string>
     <string name="notif_wallpaper_alpha_title">通知栏背景不透明度</string>
     <string name="alpha_dialog_title">设置不透明度</string>
     <string name="custom_carrier_label_title">自定义运营商名称</string>
@@ -450,8 +452,6 @@
     <string name="navbar_height_dialog_button_reboot">立刻重启</string>
     <string name="navigation_bar_color_title">导航栏颜色</string>
     <string name="navigation_bar_tint_title">导航栏按键颜色</string>
-    <string name="navigation_bar_colorall_title">着色所有按键</string>
-    <string name="navigation_bar_colorall_summary">选中后自定义图标将被着色</string>
     <string name="navigation_bar_glow_tint_title">导航栏按键按下发光颜色</string>
     <string name="navigation_bar_glow_tint_summary">当你按下一个按键时，它的背景会发光。使用该选项来改变发光的颜色。</string>
     <string name="glow_times_title">按键发光动画</string>
@@ -549,6 +549,7 @@
     <string name="ribbon_right_enable_title">启用右侧滑动</string>
     <string name="ribbon_bottom_enable_title">启用底部滑动</string>
     <string name="ribbon_bottom_warning_title">当导航栏启用时无法使用底部滑动，必须使导航栏自动隐藏或始终隐藏。</string>
+    <string name="ribbon_bottom_warning_hiding">当启用导航栏自动隐藏时，长按滑动区域显示操作区。</string>
     <string name="ribbon_button_colorize_title">图标颜色匹配文字颜色</string>
     <string name="ribbon_color_title">操作区颜色</string>
     <string name="text_color_title">应用程序文字颜色</string>
